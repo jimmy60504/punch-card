@@ -1,6 +1,8 @@
 # Punch card
 Selenium NCU HumanSys auto sign in/out program
 
+Auto detect if sign in or sign out
+
 ![web](web.jpg)
 
 Installation:
@@ -11,6 +13,10 @@ Installation:
 - Change the studentID, studentPW and work_name, work_info in [punch.py](punch.py)
 - Change the repo path in [punch_card.bat](punch_card.bat)
 - Add [punch_card.bat](punch_card.bat) file into the Task scheduler in Windows 10 
+
+Reminder:
+
+- If Chrome is used, change the webdriver.
 
 Helpful references:
 
