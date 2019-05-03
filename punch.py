@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
+from selenium.common.exceptions import NoSuchElementException
 
 student_id = "11111"
 student_pw = "*****"
@@ -33,15 +33,13 @@ driver.get("https://cis.ncu.edu.tw/HumanSys/student/stdSignIn")
 # HumanSys signin table
 table = driver.find_element_by_xpath('//*[@id="table1"]')
 rows = table.find_elements_by_tag_name("tr")
-try:
-    for row in rows:
-        cols = row.find_elements_by_tag_name("td")
-        for col in cols:
-            if col.text == work_name:
-                a = cols[5].find_elements_by_tag_name("a")
-                a[0].click()
-except StaleElementReferenceException:
-    pass
+
+for row in rows:
+    cols = row.find_elements_by_tag_name("td")
+    for col in cols:
+        if col.text == work_name:
+            a = cols[5].find_elements_by_tag_name("a")
+a[0].click()
 
 
 #  HumanSys signin detail
