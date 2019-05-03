@@ -10,7 +10,7 @@ Installation:
 - Clone this repo
 - conda install Selenium 
 - Get [Firefox geckodriver](https://github.com/mozilla/geckodriver/releases) and put into the repo dir
-- Change the studentID, studentPW and work_name, work_info in [punch.py](punch.py)
+- Change the student_id, student_pw, work_name, work_info in [punch.py](punch.py)
 
 Reminder:
 - Change the webdriver in [punch.py](punch.py) if you are using Chrome.
