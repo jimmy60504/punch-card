@@ -30,7 +30,7 @@ submit_button.click()
 driver.get("https://cis.ncu.edu.tw/HumanSys/student/stdSignIn")
 
 
-# HumanSys signin table
+# HumanSys student sign in table
 table = driver.find_element_by_xpath('//*[@id="table1"]')
 rows = table.find_elements_by_tag_name("tr")
 
@@ -38,11 +38,12 @@ for row in rows:
     cols = row.find_elements_by_tag_name("td")
     for col in cols:
         if col.text == work_name:
-            a = cols[5].find_elements_by_tag_name("a")
-a[0].click()
+            new_signin_button = cols[5].find_elements_by_tag_name("a")
+
+new_signin_button[0].click()
 
 
-#  HumanSys signin detail
+#  HumanSys student sign in detail
 try:
     signin_button = driver.find_element_by_xpath('//*[@id="signin"]')
     signin_button.click()
