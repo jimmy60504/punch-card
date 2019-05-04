@@ -22,7 +22,7 @@ Task schedule:
   - Edit [punch_card.bat](punch_card.bat)
   - Change the repo path
   - Change the Anaconda environment "punch_card" in the second line
-  - Add [punch_card.bat](punch_card.bat) file into the Task scheduler in Windows 10
+  - Add [punch_card.bat](punch_card.bat) file into the Task schedule
 - macOS
   - Add [punch.py](punch.py) into Automator
 - Ubuntu
