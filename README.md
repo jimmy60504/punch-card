@@ -8,9 +8,9 @@ Auto detect if sign in or sign out
 Installation:
 
 - Clone this repo
-- conda install Selenium 
+- pip install Selenium 
 - Get [Firefox geckodriver](https://github.com/mozilla/geckodriver/releases) and put into the repo dir
-- Change the student_id, student_pw, work_name, work_info in [punch.py](punch.py)
+- Change the student_id, student_pw, work_name, work_info in [config.json](config.json)
 
 Reminder:
 - Change the webdriver in [punch.py](punch.py) if you are using Chrome.
