@@ -14,7 +14,7 @@ Installation:
 
 Reminder:
 - Change the webdriver in [punch.py](punch.py) if you are using Chrome.
-- [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+- Download [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
 Task schedule:
 
