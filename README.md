@@ -1,32 +1,32 @@
 # Punch card
-Selenium NCU HumanSys auto sign in/out program
+Selenium NCU HumanSys auto sign in/out program.
 
-Auto detect if sign in or sign out
+Auto detect sign in or sign out.
 
 ![web](web.jpg)
 
 Installation:
 
-- Clone this repo
+- Clone or download this repo.
 - pip install Selenium 
-- Get [Firefox geckodriver](https://github.com/mozilla/geckodriver/releases) and put into the repo dir
-- Change the student_id, student_pw, work_name, work_info in [config.json](config.json)
+- Download [Firefox geckodriver](https://github.com/mozilla/geckodriver/releases) and put into the repo dir.
+- Change the student_id, student_pw, work_name, work_info in the [config.json](config.json).
 
 Reminder:
 - Change the webdriver in [punch.py](punch.py) if you are using Chrome.
-- Download [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+- Download [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and put into the repo dir.
 
 Task schedule:
 
 - Windows 10
   - Edit [punch_card.bat](punch_card.bat)
-  - Change the repo path
-  - Change the Anaconda environment "punch_card" in the second line
-  - Add [punch_card.bat](punch_card.bat) file into the Task schedule
+  - Change the repo path.
+  - Change the Anaconda environment "punch_card" in the second line.
+  - Add [punch_card.bat](punch_card.bat) file into the Task schedule.
 - macOS
-  - Add [punch.py](punch.py) into Automator
+  - Add [punch.py](punch.py) into Automator.
 - Ubuntu
-  - Add [punch.py](punch.py) into Crontab
+  - Add [punch.py](punch.py) into Crontab.
 
 Helpful guides:
 
